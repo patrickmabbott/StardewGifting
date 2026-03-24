@@ -187,7 +187,7 @@ namespace StardewGifting
                     }
                 } else if(item != null && item.Name.EndsWith("_VeryEasyButton"))
                 {
-                    this.showNpcResponse = true;
+                    this.showNpcResponse = false;
                     beSanta();
                 }
             }
@@ -529,8 +529,8 @@ namespace StardewGifting
         {
             if (this.config.GiftAllAtEndOfDay)
             {
+                this.showNpcResponse = false;
                 beSanta();
-
             }
         }
     }
