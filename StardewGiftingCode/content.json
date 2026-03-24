@@ -1,0 +1,46 @@
+{
+    "Format": "2.8.0",
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModId}}_EasyButton": {
+                    "Name": "{{ModId}}_EasyButton",
+                    "DisplayName": "Easy Button",
+                    "Description": "Delivers a gift to the nearest NPC when used.",
+            "Type": "Crafting",
+            "Category": 0,
+            "Price": 20,
+            "Texture": null,
+            "SpriteIndex": 688,
+            "ColorOverlayFromNextIndex": false,
+            "Edibility": -300,
+            "IsDrink": false,
+            "Buffs": null,
+            "GeodeDropsDefaultItems": false,
+            "GeodeDrops": null,
+            "ArtifactSpotChances": null,
+            "CanBeGivenAsGift": false,
+            "CanBeTrashed": true,
+            "ExcludeFromFishingCollection": false,
+            "ExcludeFromShippingCollection": true,
+            "ExcludeFromRandomSale": true,
+            "ContextTags": [
+            "color_brown",
+            "not_placeable",
+            "totem_item"
+            ],
+            "CustomFields": null
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+                "{{ModId}}_EasyButton": "388 1/Home/{{ModId}}_EasyButton/false/default/"
+            }
+        }
+    ]
+}

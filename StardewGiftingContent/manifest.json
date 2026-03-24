@@ -1,0 +1,12 @@
+{
+  "Name": "StardewGiftingContentPack",
+  "Author": "PascalCase",
+  "Version": "1.0.0",
+  "Description": "Deliver gifts from special storage",
+  "UniqueID": "PascalCaseStardewGiftingContentPack",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+	"UniqueID": "Pathoschild.ContentPatcher"
+  }
+}
